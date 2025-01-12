@@ -1,0 +1,10 @@
+body {
+    background-color: red;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}

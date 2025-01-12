@@ -1,7 +1,11 @@
 const elvenShieldRecipe = {
-    leatherStrips: 2,
+    leatherStrips: 10,
     ironIngot: 1,
     refinedMoonstone: 4
 }
+const sheep = {
+    ...elvenShieldRecipe,
+    selfPity:Infinity
+}
 
-console.log(elvenShieldRecipe);
+console.log(sheep);

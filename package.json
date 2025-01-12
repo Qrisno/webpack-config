@@ -1,11 +1,15 @@
 {
-  "private":true,
+  "private": true,
   "scripts": {
     "start": "webpack serve",
-    "watch":"webpack --watch",
-    "build": "webpack"
+    "watch": "webpack --watch",
+    "build": "NODE_ENV=production webpack",
+    "build-dev": "webpack"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
